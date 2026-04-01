@@ -8,7 +8,8 @@ date: 2023-01-01
 > **Skills**:Python, JavaScript/TypeScript, React, MongoDB, Next.js, Node.js, FastAPI, Docker, GitHub Actions, PostgreSQL, Redis, Supabase, PWA
 {: .prompt-tip }
 
-I am Musila Peter, a MERN Stack data driven software engineer specializing in building human-centered AI products and scalable digital systems. My mission is to architect solutions that not only solve complex technical problems but also create meaningful impact for users.
+### Musila Peter 
+I am a MERN Stack software engineer specializing in building human-centered AI products and scalable digital systems. Connect with me on [LinkedIn](https://linkedin.com/in/musilapeter), [GitHub](https://github.com/musilapeter), or visit my [Portfolio](https://musiladev.vercel.app/).
 
 ### What I Do
 I focus on full-stack development, AI integration, and data-driven engineering. Whether I'm building a mental health platform like **MindFul Gen** or an offline-first inventory system like **CoolHarlems**, I prioritize scalability, user experience, and robust performance.
