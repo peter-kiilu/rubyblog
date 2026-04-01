@@ -29,10 +29,10 @@ description: >- # used by seo meta and the atom feed
 url: "https://musila.dev"
 
 github:
-  username: peter-kiilu # change to your github username
+  username: musila-peter # change to your github username
 
 twitter:
-  username: dash_peter # change to your twitter username
+  username: _musilapeter # change to your twitter username
 
 social:
   # Change to your full name.
@@ -41,11 +41,11 @@ social:
   email: musiladev@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/dash_peter # change to your twitter homepage
-    - https://github.com/peter-kiilu # change to your github homepage
+    - https://twitter.com/_musilapeter # change to your twitter homepage
+    - https://github.com/musila-peter # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/peter-kiilu
+    - https://www.linkedin.com/in/musila-peter
 
 google_site_verification: # fill in to your verification string
 
