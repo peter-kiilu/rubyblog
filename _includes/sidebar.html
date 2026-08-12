@@ -43,6 +43,12 @@
     </ul>
   </nav>
 
+  {% if site.data.contact.size > 0 %}
+    <p class="sidebar-hint" aria-hidden="true">
+      Socials &amp; Portfolio <i class="fas fa-arrow-down"></i>
+    </p>
+  {% endif %}
+
   <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">
     {% unless site.theme_mode %}
       <button type="button" class="mode-toggle btn" aria-label="Switch Mode">

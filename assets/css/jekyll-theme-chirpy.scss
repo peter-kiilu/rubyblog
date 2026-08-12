@@ -559,3 +559,28 @@
 .case-study-article .dynamic-title {
   margin-bottom: 1.25rem;
 }
+
+/* Sidebar social-icons hint label */
+.sidebar-hint {
+  width: 100%;
+  margin: 0 0 0.35rem;
+  padding: 0;
+  font-size: 0.62rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-muted-color);
+  opacity: 0.55;
+  text-align: center;
+  transition: opacity 0.2s ease;
+}
+
+.sidebar-hint i {
+  font-size: 0.5rem;
+  margin-left: 0.15rem;
+  vertical-align: 0.05em;
+}
+
+#sidebar:hover .sidebar-hint {
+  opacity: 0.8;
+}
