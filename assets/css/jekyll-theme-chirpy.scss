@@ -586,9 +586,13 @@
 }
 
 /* --- Post hero / preview image: show face instead of center-crop --- */
-#post-wrapper .preview-img img,
-.post-preview img,
-.post .preview-img img,
-#core-wrapper .preview-img img {
+.preview-img img {
   object-position: top !important;
 }
+
+/* Give the post detail hero more vertical room for portrait photos */
+a.preview-img {
+  aspect-ratio: 40 / 28 !important;
+}
+
+
