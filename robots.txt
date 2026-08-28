@@ -1,0 +1,55 @@
+---
+layout: null
+permalink: /robots.txt
+---
+User-agent: *
+Allow: /
+Allow: /assets/
+Allow: /assets/img/
+Allow: /assets/img/posts/
+Allow: /posts/
+Allow: /case-studies/
+Allow: /feed.xml
+Allow: /sitemap.xml
+
+# Google Search & Google Images
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /assets/img/
+Allow: /
+
+# Google AI Overviews & Gemini Search
+User-agent: Google-Extended
+Allow: /
+
+# OpenAI / ChatGPT
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic Claude
+User-agent: ClaudeBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Apple Intelligence / Applebot
+User-agent: Applebot
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+
+# Common Crawl
+User-agent: CCBot
+Allow: /
+
+# Sitemaps
+Sitemap: {{ site.url }}/sitemap.xml

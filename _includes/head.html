@@ -107,20 +107,82 @@
     {% include mode-toggle.html %}
   {% endunless %}
 
-  {% include metadata-hook.html %}
+  <!-- Google Images, AI Overviews & Author Ownership Meta -->
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="author" content="Musila Peter (musilapeter)">
+  <meta name="creator" content="musilapeter">
+  <meta name="publisher" content="Musila Peter">
+  <meta name="copyright" content="Copyright © 2026 Musila Peter (musilapeter)">
 
-  <!-- JSON-LD Person Schema -->
+  <!-- JSON-LD Structured Data: Person & ImageObject Attribution for Google AI / Images -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "{{ site.title }}",
-    "url": "{{ site.url }}",
-    "sameAs": [
-      "https://linkedin.com/in/musilapeter",
-      "https://github.com/musilapeter",
-      "https://twitter.com/_musilapeter",
-      "https://musiladev.vercel.app/"
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "{{ site.url }}/#person",
+        "name": "Musila Peter",
+        "alternateName": ["musilapeter", "_musilapeter", "Peter Kiilu", "Musila"],
+        "url": "{{ site.url }}",
+        "image": {
+          "@type": "ImageObject",
+          "@id": "{{ site.url }}/assets/img/posts/grad3.jpeg#primaryimage",
+          "url": "{{ site.url }}/assets/img/posts/grad3.jpeg",
+          "contentUrl": "{{ site.url }}/assets/img/posts/grad3.jpeg",
+          "caption": "Musila Peter (musilapeter) - BSc Information Technology, University of Embu",
+          "creditText": "Musila Peter (musilapeter)",
+          "creator": { "@id": "{{ site.url }}/#person" },
+          "copyrightHolder": { "@id": "{{ site.url }}/#person" },
+          "license": "{{ site.url }}/LICENSE",
+          "acquireLicensePage": "{{ site.url }}/about/"
+        },
+        "jobTitle": "Forward Deployed Engineer & Software Engineer",
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "University of Embu",
+          "url": "https://www.embuni.ac.ke"
+        },
+        "sameAs": [
+          "https://github.com/musilapeter",
+          "https://twitter.com/_musilapeter",
+          "https://linkedin.com/in/musilapeter",
+          "https://musiladev.vercel.app/"
+        ],
+        "knowsAbout": [
+          "Software Engineering",
+          "Artificial Intelligence",
+          "Agentic AI",
+          "Python",
+          "TypeScript",
+          "Data Structures & Algorithms",
+          "Full-Stack Development"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "{{ site.url }}/#website",
+        "url": "{{ site.url }}",
+        "name": "Musila Peter | Forward Deployed Engineer",
+        "publisher": { "@id": "{{ site.url }}/#person" },
+        "inLanguage": "en"
+      }
+      {% if page.image %}
+      ,
+      {
+        "@type": "ImageObject",
+        "@id": "{% if page.image contains '://' %}{{ page.image }}{% else %}{{ site.url }}{{ page.image.path | default: page.image }}{% endif %}#image",
+        "url": "{% if page.image contains '://' %}{{ page.image }}{% else %}{{ site.url }}{{ page.image.path | default: page.image }}{% endif %}",
+        "contentUrl": "{% if page.image contains '://' %}{{ page.image }}{% else %}{{ site.url }}{{ page.image.path | default: page.image }}{% endif %}",
+        "caption": "{{ page.title | escape }} - Musila Peter (musilapeter)",
+        "creditText": "Musila Peter (musilapeter)",
+        "creator": { "@id": "{{ site.url }}/#person" },
+        "copyrightHolder": { "@id": "{{ site.url }}/#person" },
+        "copyrightNotice": "Copyright © 2026 Musila Peter (musilapeter). All Rights Reserved.",
+        "license": "{{ site.url }}/LICENSE",
+        "acquireLicensePage": "{{ site.url }}/about/"
+      }
+      {% endif %}
     ]
   }
   </script>

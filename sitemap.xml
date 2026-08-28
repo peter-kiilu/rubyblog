@@ -1,0 +1,102 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
+
+  <!-- Homepage & Core Persona Images for musilapeter -->
+  <url>
+    <loc>{{ site.url }}/</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>{{ site.url }}/assets/img/profile.png</image:loc>
+      <image:title>Musila Peter (musilapeter) - Forward Deployed Engineer &amp; AI Systems Architect</image:title>
+      <image:caption>Official avatar and profile photograph of Musila Peter (@musilapeter).</image:caption>
+      <image:geo_location>Kenya</image:geo_location>
+      <image:license>{{ site.url }}/LICENSE</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/assets/img/posts/grad3.jpeg</image:loc>
+      <image:title>Musila Peter (musilapeter) - University of Embu Graduation Portrait</image:title>
+      <image:caption>Musila Peter (musilapeter) portrait in academic regalia, BSc Information Technology graduate with Second Class Honours (Upper Division) from University of Embu.</image:caption>
+      <image:geo_location>University of Embu, Kenya</image:geo_location>
+      <image:license>{{ site.url }}/LICENSE</image:license>
+    </image:image>
+  </url>
+
+  <!-- Blog Posts with Full Image Metadata & musilapeter Ownership -->
+  {% for post in site.posts %}
+  <url>
+    <loc>{{ site.url }}{{ post.url }}</loc>
+    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    {% if post.image %}
+    <image:image>
+      <image:loc>{% if post.image contains '://' %}{{ post.image }}{% else %}{{ site.url }}{{ post.image.path | default: post.image }}{% endif %}</image:loc>
+      <image:title>{{ post.title | xml_escape }} - Musila Peter (musilapeter)</image:title>
+      <image:caption>{{ post.title | xml_escape }} - Captured and authored by Musila Peter (@musilapeter).</image:caption>
+      <image:geo_location>Kenya</image:geo_location>
+      <image:license>{{ site.url }}/LICENSE</image:license>
+    </image:image>
+    {% endif %}
+    {% if post.url contains 'campus-crucible' %}
+    <image:image>
+      <image:loc>{{ site.url }}/assets/img/posts/grad8.jpeg</image:loc>
+      <image:title>Musila Peter (musilapeter) on Graduation Steps - University of Embu</image:title>
+      <image:caption>Musila Peter (@musilapeter) on the graduation steps in academic regalia, Class of 2026, University of Embu.</image:caption>
+      <image:geo_location>University of Embu, Kenya</image:geo_location>
+      <image:license>{{ site.url }}/LICENSE</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/assets/img/posts/grad10.jpeg</image:loc>
+      <image:title>Musila Peter (musilapeter) with Fellow IT Engineers - University of Embu Class of 2026</image:title>
+      <image:caption>Musila Peter (@musilapeter) celebrating graduation with peer software engineers at University of Embu.</image:caption>
+      <image:geo_location>University of Embu, Kenya</image:geo_location>
+      <image:license>{{ site.url }}/LICENSE</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/assets/img/posts/grad1.jpeg</image:loc>
+      <image:title>Musila Peter (musilapeter) Graduation Celebration with Family</image:title>
+      <image:caption>Musila Peter (@musilapeter) celebrating university graduation milestone with family and supporters at University of Embu.</image:caption>
+      <image:geo_location>University of Embu, Kenya</image:geo_location>
+      <image:license>{{ site.url }}/LICENSE</image:license>
+    </image:image>
+    {% endif %}
+  </url>
+  {% endfor %}
+
+  <!-- Tabs / Pages -->
+  {% for tab in site.tabs %}
+  <url>
+    <loc>{{ site.url }}{{ tab.url }}</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {% endfor %}
+
+  <!-- Case Studies -->
+  {% for study in site.case_studies %}
+  <url>
+    <loc>{{ site.url }}{{ study.url }}</loc>
+    <lastmod>{{ study.date | default: site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    {% if study.image %}
+    <image:image>
+      <image:loc>{% if study.image contains '://' %}{{ study.image }}{% else %}{{ site.url }}{{ study.image }}{% endif %}</image:loc>
+      <image:title>{{ study.title | xml_escape }} - Musila Peter (musilapeter)</image:title>
+      <image:caption>Case Study: {{ study.title | xml_escape }} by Musila Peter (@musilapeter)</image:caption>
+      <image:license>{{ site.url }}/LICENSE</image:license>
+    </image:image>
+    {% endif %}
+  </url>
+  {% endfor %}
+
+</urlset>
