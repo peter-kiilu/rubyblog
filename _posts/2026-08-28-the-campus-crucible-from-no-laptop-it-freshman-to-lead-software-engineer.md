@@ -3,7 +3,7 @@ title: "Cheers to the journey: The Campus Crucible: From No-Laptop IT Freshman t
 date: 2026-08-28 12:00:00 +0300
 categories: [Career, Personal Story]
 tags: [career, growth, mentorship, software-engineering, artificial-intelligence, university-of-embu, kenya]
-image: /assets/img/posts/grad3.jpeg
+image: /assets/img/posts/musila-peter-graduation-portrait-university-of-embu.jpeg
 ---
 
 Every Kenyan undergraduate knows the exact thrill of that first week on campus. It is an intoxicating rush of newfound freedom—a sudden release from the strict bells, roll calls, and rigid timetables of high school. You arrive clutching a freshly minted admission letter, a head buzzing with ambitious dreams, and the unwavering belief that you are about to conquer the world.
@@ -106,7 +106,7 @@ With these tools cemented, I transitioned from consuming tutorials to architecti
 
 Technical acumen in isolation is insufficient. The people you surround yourself with dictate your trajectory. I chose to align myself with builders, late-night debuggers, and innovators.
 
-![Musila Peter (@musilapeter) alongside fellow graduating engineers at the University of Embu Class of 2026](/assets/img/posts/grad10.jpeg "Musila Peter (musilapeter) and fellow engineers at University of Embu graduation")
+![Musila Peter (@musilapeter) alongside fellow graduating engineers at the University of Embu Class of 2026](/assets/img/posts/musila-peter-fellow-engineers-university-of-embu-2026.jpeg "Musila Peter (musilapeter) and fellow engineers at University of Embu graduation")
 *Surrounding myself with fellow builders, late-night debuggers, and dreamers: Musila Peter (@musilapeter) with the University of Embu Class of 2026.*
 
 ```
@@ -141,7 +141,7 @@ That aging second-hand laptop was running hot, compiling systems solving concret
 
 A university degree should not be confined to the walls of a single lecture hall. I pushed to represent our institution across regional and national stages:
 
-![Musila Peter (@musilapeter) in academic regalia on the graduation steps at the University of Embu](/assets/img/posts/grad8.jpeg "Musila Peter (musilapeter) Graduation Steps at University of Embu")
+![Musila Peter (@musilapeter) in academic regalia on the graduation steps at the University of Embu](/assets/img/posts/musila-peter-graduation-steps-university-of-embu.jpeg "Musila Peter (musilapeter) Graduation Steps at University of Embu")
 *Standing among the graduating class at the University of Embu: Musila Peter (@musilapeter)—from writing code on scrap paper to walking the graduation stage.*
 
 | Venue / Stage | Role / Initiative | Core Focus |
@@ -176,7 +176,7 @@ I had to institute the same strict discipline for self-care that I applied to co
 
 Looking back across the finish line—having officially graduated from the **University of Embu** with **Second Class Honours (Upper Division)** and a **GPA of 3.45**—I often reflect on the young man who first walked onto that campus with no laptop and nothing but raw ambition.
 
-![Musila Peter (@musilapeter) celebrating graduation with family and loved ones](/assets/img/posts/grad1.jpeg "Musila Peter (musilapeter) Graduation Celebration with Family")
+![Musila Peter (@musilapeter) celebrating graduation with family and loved ones](/assets/img/posts/musila-peter-graduation-celebration-family.jpeg "Musila Peter (musilapeter) Graduation Celebration with Family")
 *A shared milestone: Musila Peter (@musilapeter) celebrating the culmination of the undergraduate journey with family and supporters.*
 
 University was a forge. It tested endurance through financial scarcity, tight lab schedules, academic pressure, and high-stakes startup deadlines, ultimately refining me into a resilient engineer and leader.

@@ -21,7 +21,7 @@ layout: null
       <image:license>{{ site.url }}/LICENSE</image:license>
     </image:image>
     <image:image>
-      <image:loc>{{ site.url }}/assets/img/posts/grad3.jpeg</image:loc>
+      <image:loc>{{ site.url }}/assets/img/posts/musila-peter-graduation-portrait-university-of-embu.jpeg</image:loc>
       <image:title>Musila Peter (musilapeter) - University of Embu Graduation Portrait</image:title>
       <image:caption>Musila Peter (musilapeter) portrait in academic regalia, BSc Information Technology graduate with Second Class Honours (Upper Division) from University of Embu.</image:caption>
       <image:geo_location>University of Embu, Kenya</image:geo_location>
@@ -47,21 +47,21 @@ layout: null
     {% endif %}
     {% if post.url contains 'campus-crucible' %}
     <image:image>
-      <image:loc>{{ site.url }}/assets/img/posts/grad8.jpeg</image:loc>
+      <image:loc>{{ site.url }}/assets/img/posts/musila-peter-graduation-steps-university-of-embu.jpeg</image:loc>
       <image:title>Musila Peter (musilapeter) on Graduation Steps - University of Embu</image:title>
       <image:caption>Musila Peter (@musilapeter) on the graduation steps in academic regalia, Class of 2026, University of Embu.</image:caption>
       <image:geo_location>University of Embu, Kenya</image:geo_location>
       <image:license>{{ site.url }}/LICENSE</image:license>
     </image:image>
     <image:image>
-      <image:loc>{{ site.url }}/assets/img/posts/grad10.jpeg</image:loc>
+      <image:loc>{{ site.url }}/assets/img/posts/musila-peter-fellow-engineers-university-of-embu-2026.jpeg</image:loc>
       <image:title>Musila Peter (musilapeter) with Fellow IT Engineers - University of Embu Class of 2026</image:title>
       <image:caption>Musila Peter (@musilapeter) celebrating graduation with peer software engineers at University of Embu.</image:caption>
       <image:geo_location>University of Embu, Kenya</image:geo_location>
       <image:license>{{ site.url }}/LICENSE</image:license>
     </image:image>
     <image:image>
-      <image:loc>{{ site.url }}/assets/img/posts/grad1.jpeg</image:loc>
+      <image:loc>{{ site.url }}/assets/img/posts/musila-peter-graduation-celebration-family.jpeg</image:loc>
       <image:title>Musila Peter (musilapeter) Graduation Celebration with Family</image:title>
       <image:caption>Musila Peter (@musilapeter) celebrating university graduation milestone with family and supporters at University of Embu.</image:caption>
       <image:geo_location>University of Embu, Kenya</image:geo_location>
